@@ -39,23 +39,21 @@
       <div id="portfolio-details" class="portfolio-details">
         <div class="container">
   
-          <div class="row">
-  
-            <div class="col-lg-12 portfolio-info">
-              <br>
-              <h2 style="color:#12d640">GroundWater Forecasting:</h2>
-              <h4 style="color:#12d640">Univariate and Multivariate Analysis With N-BEATS</h4>
+          <div class="col-lg-12 portfolio-info">
+            <br>
+            <h2 style="color:#12d640">Accelerating MNIST Training with Custom CUDA Kernels</h2>
+            <ul>
+              <li><strong>Github URL</strong>: <a href="https://github.com/rohit211-s/CUDA-Kernels" target="_blank">Project Link</a></li>
+            </ul>
+            <ul>
+              <li><strong>Tools Used</strong>: <p style="display: inline; color:#12d640">CUDA, PyTorch, Numpy, Pandas, Matplotlib</p></li>
+            </ul>
+            <p style="text-align: justify;">
+              This project dives into the potential of low-level CUDA programming to enhance the training speed of neural networks. With a strong background in Python-based frameworks like PyTorch and JAX, I sought to bridge the gap between high-level convenience and low-level performance by directly implementing CUDA kernels. By crafting custom CUDA solutions, I explored and addressed performance bottlenecks present in widely-used frameworks.
+              <br></br>
+              The results were eye-opening. PyTorch, even when tuned for maximum efficiency with PyTorch 2.0's torch.compile, lagged significantly behind. My CUDA implementation outperformed PyTorch, especially in smaller networks, achieving up to 6x speed improvements. Notable optimizations included using fp16 precision to double throughput in matrix multiplications, and carefully managing data preloading to reduce transfer delays. This project also honed my skills with CUDA, challenging me to balance speed with code readability to make the project accessible for others interested in CUDA.
               
-              <ul>
-                <li><strong>Github URL</strong>: <a href="https://github.com/rohit211-s/GroundWater_Level_Prediction_using_N_Beats" target="_blank">Project Link</a></li>
-              </ul>
-  
-              <p style="text-align: justify;">
-                This project focuses on forecasting groundwater levels through two distinct approaches: univariate and multivariate data analysis. In the univariate analysis, we leverage past observations to predict the current day's groundwater level using three trained models: N-Beats, LSTM, and Conv1d Layer. The N-Beats model is specifically designed for time series data, while LSTM excels at capturing long-term dependencies in sequential data, and Conv1d Layer detects local patterns. In the multivariate analysis, we extend the approach by incorporating additional environmental features, such as precipitation, temperature, and atmospheric vapor pressure, which may influence groundwater dynamics. This integration allows us to develop more accurate predictive models, enabling a deeper understanding of the complex relationships between these features and their combined impact on groundwater levels.
-              </p>
             </div>
-  
-          </div>
   
         </div>
       </div><!-- End Portfolio Details -->
